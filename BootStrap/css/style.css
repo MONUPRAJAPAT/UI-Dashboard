@@ -1,0 +1,19 @@
+.dropdown-item:hover{
+    background-color: lightgray;
+    color: whitesmoke;
+    box-shadow: 0 0 10px black;
+}
+.profileimage{
+    border: 10px solid transparent;
+    animation: glow-icon 10s linear infinite;
+}
+@keyframes glow-icon {
+    0%, 100%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.05,1.05);
+        box-shadow: 0 5px 10px black;
+        border: 10px solid grey;
+    }
+}

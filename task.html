@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap CSS Files-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="BootStrap/css/fontawesome-5.8.1.css">
+    <link rel="stylesheet" href="BootStrap/css/bootstrap.css">
+    <link rel="stylesheet" href="BootStrap/css/mdb.css">
+    <link rel="stylesheet" href="BootStrap/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<!--Main Navbar-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark p-2">
+    <div class="container">
+        <a href="index.html" class="navbar-brand text-warning font-weight-bold">
+            <i class="fa fa-snowflake"></i> Ui Brains
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#ui-navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="ui-navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <i class="fa fa-chart-bar text-muted"></i> Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="task.html">
+                        <i class="fa fa-list text-muted"></i> Tasks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categories.html">
+                        <i class="fa fa-sitemap text-muted"></i> Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="employees.html">
+                        <i class="fa fa-users text-muted"></i> Employees</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown">
+                        <i class="fa fa-sign-in-alt text-muted"></i> Monu</a>
+                    <div class="dropdown-menu p-3">
+                        <a href="profile.html" class="dropdown-item">
+                            <i class="fa fa-user"> Profile</i>
+                        </a>
+                        <a href="setting.html" class="dropdown-item">
+                            <i class="fa fa-cogs"> Settings</i>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">
+                        <i class="fa fa-sign-out-alt text-muted"></i> Log Out</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Task Section-->
+<section class="p-1 bg-primary text-white">
+    <div class="container">
+        <div class="row animated slideInLeft">
+            <h1><i class="fa fa-list"> Tasks</i></h1>
+        </div>
+    </div>
+</section>
+
+<!--Main Content Section-->
+<section class="p-3">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-6 animated slideInRight">
+                <form class="form-inline d-flex align-items-center justify-content-center">
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Task name">
+                        <button class="btn btn-primary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5 animated rotateInUpRight">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header bg-primary">
+                        <h1>Task Details</h1>
+                    </div>
+                    <div class="card-body bg-light">
+                        <table class="table table-hover table-striped">
+                            <thead class="bg-dark text-white">
+                            <tr>
+                                <th>Home</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Task</th>
+                                <th>Level</th>
+                                <th>Category</th>
+                                <th>Details</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Sarika</td>
+                                <td>sarika@gmail.com</td>
+                                <td>Automation of Emails</td>
+                                <td>Medius</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Sarika</td>
+                                <td>sarika@gmail.com</td>
+                                <td>Automation of Emails</td>
+                                <td>Medius</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Sarika</td>
+                                <td>sarika@gmail.com</td>
+                                <td>Automation of Emails</td>
+                                <td>Medius</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Sarika</td>
+                                <td>sarika@gmail.com</td>
+                                <td>Automation of Emails</td>
+                                <td>Medius</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Sarika</td>
+                                <td>sarika@gmail.com</td>
+                                <td>Automation of Emails</td>
+                                <td>Medius</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Sarika</td>
+                                <td>sarika@gmail.com</td>
+                                <td>Automation of Emails</td>
+                                <td>Medius</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Sarika</td>
+                                <td>sarika@gmail.com</td>
+                                <td>Automation of Emails</td>
+                                <td>Medius</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Sarika</td>
+                                <td>sarika@gmail.com</td>
+                                <td>Automation of Emails</td>
+                                <td>Medius</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Main Footer-->
+<footer class="bg-dark p-3">
+    <div class="container text-center text-white">
+        <div class="row">
+            <div class="col">
+                <h1>Copyright &copy;2020,UiBrains.com</h1>
+                <p>All Rights Reserved</p>
+                <p>Developed and Maintained by
+                    <a href="https://instagram.com/monu_prajapat96?igshid=zjb3sifnw9yh"  target="_blank" class="text-warning mx-2">
+                        <i class="fa fa-user"></i> Monu Prajapat
+                    </a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<!--Bootstrap JS Files-->
+<script src="BootStrap/js/jquery.js"></script>
+<script src="BootStrap/js/popper.js"></script>
+<script src="BootStrap/js/bootstrap.js"></script>
+<script src="BootStrap/js/mdb.js"></script>
+<script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace( 'editor1' );
+</script>
+</body>
+</html>
